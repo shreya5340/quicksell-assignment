@@ -67,7 +67,7 @@ const Card = ({ task, key, user, view }) => {
         </div>
       </div>
       {view !== "user" && (
-        <div className="dp" style={{ backgroundColor: color }}>
+        <div className="profile" style={{ backgroundColor: color }}>
           {name}
           <div className="indicator"></div>
         </div>
